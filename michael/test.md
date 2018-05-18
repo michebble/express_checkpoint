@@ -37,8 +37,6 @@ app.delete('/users/delete', (req, res) => {
   res.send('delete')
 })
 
-
-
 ```
 
 ### Question 3
@@ -46,7 +44,14 @@ app.delete('/users/delete', (req, res) => {
 Describe the differences between Express and Rails as backend frameworks.
 
 ```text
-Your answer...
+Rails is a very opinionated framework that embraceses the mantra "Convention over Configuration". It will simplify and automate the set up app of routes, models and database entries. In return expects the user to use specific naming conventions, i.e. for models, database tables, and routes. Not following these conventions can break the app, and require complex work arounds. It is also heavy, automatically requiring gems that the user may or may not need, as well as setting up more routes than maybe usefull. 
+
+In comparison Express is lighter and unopinionated. It only generates a package.json, compared to all the files and directors that Rails can genarate. It does not install extra packages, and it is up to the user to decide what they need for the project. For example, The user can make choices as to which view engine they want to use such as 'ejs', 'jade', or 'handlebars'. The user needs to manually define all their needed routes, file structure and so on. 
+
+Rails excells at getting projects deloyed quickly and for situations where user wants to create contained sites.
+
+Express is great for making API end points, as can be used to easily create one page apps.
+
 ```
 
 ### Question 4
