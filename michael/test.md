@@ -21,7 +21,23 @@ Then, make each route respond with a one-word string containing the RESTful acti
 var express = require("express")
 var app = express()
 
-// Your code starts here...
+app.get('/users/show', (req, res) => {
+  res.send('show')
+})
+
+app.post('/users/create', (req, res) => {
+  res.send('create')
+})
+
+app.put('users/edit', (req, res) => {
+  res.send('update')
+})
+
+app.delete('/users/delete', (req, res) => {
+  res.send('delete')
+})
+
+
 
 ```
 
