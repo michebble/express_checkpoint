@@ -65,7 +65,11 @@ app.use(bodyParser.urlencoded({extended: true}))
 ```
 
 ```text
-Your answer...
+The first line makes the 'body-parser' middleware available for use in the app.
+
+The second line converts the incoming HTTP body request into a JSON object for easier access and handling.
+
+The third line converts the incoming HTTP body request into a URL. As the extended option is set to true, the URL can contain more than just key/value pairs, but also objects and arrays. 
 ```
 
 ### Question 5
