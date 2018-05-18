@@ -123,5 +123,5 @@ class BankAccount {
 Create an instance of the BankAccount class
 
 ```js
-var jimsAccount = new BankAccount('checking')
+var jimsAccount = new BankAccount('checking');
 ```
