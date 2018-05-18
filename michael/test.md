@@ -5,7 +5,10 @@
 What is `module.exports` and why do we use it?
 
 ```text
-Your answer...
+'module.exports' is a line of code that points to an object that references functions and variable defined in the code above it. The file containing the code can be required in another file, so that those functions and variables can be called in the other file. 
+
+This helps seperate code, which can make it more readable, maintainable, and can prevent unintended modifications.
+
 ```
 
 ### Question 2
